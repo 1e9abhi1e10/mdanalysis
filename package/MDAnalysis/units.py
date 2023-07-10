@@ -333,6 +333,7 @@ conversion_factor = {
     'force': forceUnit_factor,
     'energy': energyUnit_factor,
 }
+massUnit_factor = { 'u': 1.0, 'kg': 1.66053906660*10**(-27) }
 
 #: Generated lookup table (dict): returns the type of unit for a known input unit.
 #: Note: Any unit must be *unique* because this dict is used to guess the
